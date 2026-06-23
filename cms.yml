@@ -18,6 +18,8 @@ locale: "pt"
 collections:
   - name: "site"
     label: "Meu site"
+    editor:
+      preview: false
     files:
       - name: "dados"
         label: "Catálogo e Contato"
