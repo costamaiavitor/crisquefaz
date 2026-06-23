@@ -15,6 +15,17 @@
       "nome": "Cúpula Floral",
       "preco": 200,
       "descricao": "Cúpula Floral"
+    },
+    {
+      "destaque": false,
+      "cor": "almond",
+      "descricao": "Cúpula de vidro com base em madeira pinus com medidas 20x20 cm, arranjo de flores naturais desidratadas no interior",
+      "preco": 435,
+      "fit": "cover",
+      "imagem": "/fotos/whatsapp-image-2026-06-23-at-10.34.07.jpeg",
+      "categoria": "Arranjos",
+      "nome": "cupula 20x20 cm",
+      "tag": " Mais vendido"
     }
   ],
   "capa": "/fotos/whatsapp-image-2026-06-23-at-10.34.07.jpeg"
