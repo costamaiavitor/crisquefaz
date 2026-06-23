@@ -78,6 +78,15 @@
     );
   }
 
+  /* ---------- Foto da capa (topo) ---------- */
+  var heroImg = document.getElementById('hero-img');
+  if (heroImg && CONFIG.capa) {
+    heroImg.src = CONFIG.capa;
+    heroImg.style.cssText = 'position:relative;left:auto;bottom:auto;transform:none;height:auto;width:100%;max-width:440px;max-height:90%;object-fit:cover;border-radius:24px;box-shadow:0 30px 60px -25px rgba(0,0,0,.55);margin:0 auto;display:block;filter:none';
+    var _disc = document.querySelector('.hero-art .disc'); if (_disc) _disc.style.display='none';
+    var _art = heroImg.closest('.hero-art'); if (_art) { _art.style.display='flex'; _art.style.alignItems='center'; _art.style.justifyContent='center'; }
+  }
+
   /* ---------- Início: destaques ---------- */
   const featured = $("#featured-grid");
   if (featured) {

@@ -29,6 +29,7 @@ collections:
           - { label: "E-mail", name: "email", widget: "string", required: false, hint: "E-mail de contato que aparece no rodapé do site." }
           - { label: "Frase de atendimento", name: "cidade", widget: "string", required: false, hint: "Ex.: Atendemos toda a região · entrega local e envio para todo o Brasil" }
           - { label: "Horário", name: "horario", widget: "string", required: false, hint: "Ex.: Seg a Sáb · 9h às 18h" }
+          - { label: "Foto da capa (topo do site)", name: "capa", widget: "image", required: false, hint: "A foto grande do topo da página inicial. Use uma foto bonita de um arranjo, de preferência em fundo claro ou sem fundo." }
           - label: "Arranjos (os produtos do site)"
             name: "produtos"
             label_singular: "Arranjo"
