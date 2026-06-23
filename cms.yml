@@ -42,7 +42,7 @@ collections:
               - { label: "📷 Foto do arranjo", name: "imagem", widget: "image", required: false, hint: "Toque aqui para escolher uma foto da galeria do celular ou tirar na hora." }
               - { label: "Nome do arranjo", name: "nome", widget: "string", hint: "O nome que aparece no site. Ex.: Buquê Primavera." }
               - { label: "Preço (R$)", name: "preco", widget: "number", value_type: "float", step: 0.01, min: 0, hint: "Só o número, em reais. Ex.: 149.90" }
-              - { label: "Categoria", name: "categoria", widget: "select", default: "Arranjos", options: ["Arranjos", "Buquês", "Vasos", "Presentes"], hint: "Em qual grupo esse arranjo aparece na Loja." }
+              - { label: "Categoria", name: "categoria", widget: "string", default: "Arranjos", hint: "Digite a categoria. Pode usar uma que já existe (Arranjos, Buquês, Vasos, Presentes) ou criar uma NOVA — ela vira um filtro novo na Loja automaticamente. Escreva igualzinho nos produtos da mesma categoria." }
               - { label: "Descrição", name: "descricao", widget: "text", required: false, hint: "Uma frase curtinha sobre o arranjo." }
               - { label: "Mostrar na página inicial?", name: "destaque", widget: "boolean", default: false, hint: "Ligue para esse arranjo aparecer já na primeira página do site." }
               - label: "A foto preenche o card?"
