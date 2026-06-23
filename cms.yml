@@ -1,0 +1,59 @@
+# ============================================================
+#  Painel Cris que faz  (Decap CMS)
+#  >>> TROQUE "SEU_USUARIO" pelo seu usuário do GitHub <<<
+# ============================================================
+backend:
+  name: github
+  repo: costamaiavitor/crisquefaz
+  branch: main
+
+# Onde as fotos enviadas pelo painel são guardadas
+media_folder: "fotos"
+public_folder: "/fotos"
+
+locale: "pt"
+
+collections:
+  - name: "site"
+    label: "Site"
+    files:
+      - name: "dados"
+        label: "Catálogo e Contato"
+        file: "site.json"
+        fields:
+          - { label: "WhatsApp (55 + DDD + número)", name: "whatsapp", widget: "string" }
+          - { label: "Instagram (link)", name: "instagram", widget: "string", required: false }
+          - { label: "Instagram (@)", name: "instagramHandle", widget: "string", required: false }
+          - { label: "E-mail", name: "email", widget: "string", required: false }
+          - { label: "Atendimento / cidade", name: "cidade", widget: "string", required: false }
+          - { label: "Horário", name: "horario", widget: "string", required: false }
+          - label: "Arranjos"
+            name: "produtos"
+            label_singular: "Arranjo"
+            widget: "list"
+            summary: "{{fields.nome}} — R$ {{fields.preco}}"
+            fields:
+              - { label: "Nome", name: "nome", widget: "string" }
+              - { label: "Categoria", name: "categoria", widget: "select", default: "Arranjos", options: ["Arranjos", "Buquês", "Vasos", "Presentes"] }
+              - { label: "Preço (R$)", name: "preco", widget: "number", value_type: "float", step: 0.01, min: 0 }
+              - { label: "Descrição", name: "descricao", widget: "text", required: false }
+              - { label: "Foto", name: "imagem", widget: "image", required: false }
+              - label: "A foto preenche o card?"
+                name: "fit"
+                widget: "select"
+                default: "cover"
+                options:
+                  - { label: "Sim — a foto preenche o card", value: "cover" }
+                  - { label: "Não — é um recorte (flor sem fundo)", value: "contain" }
+              - label: "Cor do fundo do card"
+                name: "cor"
+                widget: "select"
+                default: "almond"
+                options:
+                  - { label: "Bege", value: "almond" }
+                  - { label: "Verde", value: "green" }
+                  - { label: "Terracota", value: "rust" }
+                  - { label: "Creme", value: "cream" }
+                  - { label: "Grafite", value: "jet" }
+              - { label: "Selo (opcional)", name: "tag", widget: "string", required: false }
+              - { label: "Mostrar na página inicial (destaque)", name: "destaque", widget: "boolean", default: false }

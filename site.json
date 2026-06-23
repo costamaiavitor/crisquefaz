@@ -1,0 +1,100 @@
+{
+  "whatsapp": "5585988836699",
+  "instagram": "https://instagram.com/cris_que_faz",
+  "instagramHandle": "@cris_que_faz",
+  "email": "contato@crisquefaz.com.br",
+  "cidade": "Atendemos toda a região · entrega local e envio para todo o Brasil",
+  "horario": "Seg a Sáb · 9h às 18h",
+  "produtos": [
+    {
+      "nome": "Arranjo Serena",
+      "categoria": "Arranjos",
+      "preco": 189,
+      "descricao": "Composição de statice e folhagens secas em tons de lavanda. Dura por anos.",
+      "imagem": "statice.png",
+      "cor": "almond",
+      "tag": "Mais vendido",
+      "destaque": true
+    },
+    {
+      "nome": "Buquê Aurora",
+      "categoria": "Buquês",
+      "preco": 149,
+      "descricao": "Buquê vibrante com flor solar desidratada, perfeito para presentear.",
+      "imagem": "gazania.png",
+      "cor": "green",
+      "tag": "",
+      "destaque": true
+    },
+    {
+      "nome": "Vaso Hortênsia",
+      "categoria": "Vasos",
+      "preco": 169,
+      "descricao": "Hortênsia desidratada com folhagem, pronta no vaso para decorar.",
+      "imagem": "hydrangea.png",
+      "cor": "rust",
+      "tag": "",
+      "destaque": true
+    },
+    {
+      "nome": "Arranjo Provence",
+      "categoria": "Arranjos",
+      "preco": 129,
+      "descricao": "Maço de lavanda seca perfumada, elegância natural e aroma suave.",
+      "imagem": "lavender.png",
+      "cor": "cream",
+      "tag": "",
+      "destaque": true
+    },
+    {
+      "nome": "Mini Delicado",
+      "categoria": "Presentes",
+      "preco": 89,
+      "descricao": "Mini arranjo de florezinhas secas — o presente certo para dizer 'pensei em você'.",
+      "imagem": "blossom.png",
+      "cor": "green",
+      "tag": "Novo",
+      "destaque": false
+    },
+    {
+      "nome": "Arranjo Outono",
+      "categoria": "Arranjos",
+      "preco": 209,
+      "descricao": "Flores de palha cor de âmbar num arranjo encorpado e sofisticado.",
+      "imagem": "dried-lotus.png",
+      "cor": "jet",
+      "tag": "Premium",
+      "destaque": true
+    },
+    {
+      "nome": "Buquê Lavanda",
+      "categoria": "Buquês",
+      "preco": 119,
+      "descricao": "Buquê de lavanda amarrado à mão, embalado com papel kraft e fita.",
+      "imagem": "lavender.png",
+      "cor": "rust",
+      "tag": "",
+      "destaque": false
+    },
+    {
+      "nome": "Caixa Presente Eterno",
+      "categoria": "Presentes",
+      "preco": 159,
+      "descricao": "Caixa especial com flores secas selecionadas e cartão personalizado.",
+      "imagem": "dried-lotus.png",
+      "cor": "almond",
+      "tag": "",
+      "destaque": false
+    },
+    {
+      "nome": "Vaso Campo Seco",
+      "categoria": "Vasos",
+      "preco": 199,
+      "descricao": "Mix de flores e capins desidratados num vaso de cerâmica artesanal.",
+      "imagem": "statice.png",
+      "cor": "cream",
+      "tag": "",
+      "destaque": false
+    }
+  ]
+}
